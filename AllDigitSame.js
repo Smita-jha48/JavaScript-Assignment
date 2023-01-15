@@ -25,6 +25,8 @@ let CheckSameDigitArrow = (num) =>{
     return true;
 }
 
-console.log(CheckSameDigit(22233))
-console.log(CheckSameDigitArrow(544555))
+module.exports = { CheckSameDigit, CheckSameDigitArrow };
+
+// console.log(CheckSameDigit(22233))
+// console.log(CheckSameDigitArrow(544555))
 
