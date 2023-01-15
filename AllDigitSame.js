@@ -1,4 +1,4 @@
-var InputNumber = 223;
+
 
 function CheckSameDigit(num){
     var digit = parseInt(num%10) //finding last digit
@@ -25,6 +25,6 @@ let CheckSameDigitArrow = (num) =>{
     return true;
 }
 
-console.log(CheckSameDigit(InputNumber))
-console.log(CheckSameDigitArrow(InputNumber))
+console.log(CheckSameDigit(22233))
+console.log(CheckSameDigitArrow(544555))
 
